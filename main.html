@@ -17,7 +17,7 @@
 				if (num > max) {
 					secmax = max;
 					max = num;
-				}else if(num > secmax && num != max) {
+				}else if(num > secmax) {
 					secmax = num;
 				}
 			}
@@ -33,7 +33,7 @@
 				arr[i] = prompt("Enter element " + (i+1));
 			}
 			
-			alert(secondHighest(arr) + " " + arr);
+			alert(secondHighest(arr));
 		}
 		Main();
 	</script>
